@@ -1,21 +1,3 @@
-/*
-  -    SENSOR DE TURBIDEZ DA ÁGUA COM ARDUINO     -
-  =================================================
-  === BLOG DA ROBOTICA - www.blogdarobotica.com ===
-  =================================================
-  Autor: Jonas Souza
-  E-mail: contato@blogdarobotica.com
-  Facebook: facebook.com/blogdarobotica
-  Instagram:@blogdarobotica
-  YouTube: youtube.com/user/blogdarobotica
-  =================================================
-  === CASA DA ROBOTICA - www.casadarobotica.com ===
-  =================================================
-  Facebook: facebook.com/casadaroboticaoficial
-  Instagram:@casadarobotica
-  ==================================================
-*/
-
 int sensorPin = A0; // Atribui a porta A3 a variavel sensorPin
 int leitura; //Variável responsável por guardar o valor da leitura analógica do sensor
 

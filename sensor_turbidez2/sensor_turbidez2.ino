@@ -1,4 +1,4 @@
-int sensorPin = A0; // Atribui a porta A3 a variavel sensorPin
+int sensorPin = A0; // Atribui a porta A0 a variavel sensorPin
 int leitura; //Variável responsável por guardar o valor da leitura analógica do sensor
 
 void setup() {
@@ -9,7 +9,7 @@ void loop() {
   leitura = analogRead(sensorPin); //Realiza a leitura analógica do sensor
   Serial.print("Valor lido: "); //Imprime no monitor serial
   Serial.println(leitura); // manda o valor de leitura para o monitor serial
-  delay(1000); //Intervalo de 0,5 segundos entre as leituras
+  delay(1000); //Intervalo de 1 segundo entre as leituras
   Serial.print("Estado da água: "); //Imprime no monitor serial
 
   if (leitura > 700) { //Se o valor de leitura analógica estiver acima de 700

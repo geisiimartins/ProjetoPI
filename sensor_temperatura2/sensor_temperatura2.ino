@@ -1,7 +1,5 @@
 //Sensor de Temperatura - DS18B20
 
-// ds18b20 - Vinicius Alves - agosto de 2020
-
 #include <OneWire.h>
 #include <DallasTemperature.h>
 

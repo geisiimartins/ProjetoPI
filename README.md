@@ -15,7 +15,7 @@ Aquality: Sistema de Monitoramento Qualitativo da Água de Bebedouros - IoT
 * Sensor de tubidez: ST100
 * Sensor de temperatura: DS18B20
 * Sensor de pH: Módulo PH4502C
-* 
+  
 ## :handshake: Colaboradores
 <table>
   <tr>
